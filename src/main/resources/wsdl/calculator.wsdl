@@ -186,10 +186,10 @@
     </wsdl:binding>
     <wsdl:service name="Calculator">
         <wsdl:port name="CalculatorSoap" binding="tns:CalculatorSoap">
-            <soap:address location="http://www.dneonline.com/calculator.asmx"/>
+            <soap:address location="http://localhost:8084/service"/>
         </wsdl:port>
         <wsdl:port name="CalculatorSoap12" binding="tns:CalculatorSoap12">
-            <soap12:address location="http://www.dneonline.com/calculator.asmx"/>
+            <soap12:address location="http://localhost:8084/service"/>
         </wsdl:port>
     </wsdl:service>
 </wsdl:definitions>
